@@ -7,10 +7,7 @@ cast = ["Barney Stinson", "Robin Scherbatsky", "Ted Mosby", "Lily Aldrin", "Mars
 heights = [72, 68, 72, 66, 76]
 
 # write your for loop here
-cast_append = []
 for i, actor in enumerate(cast):
-    new_string = f"{actor} {heights[i]}"
-    cast_append.append(new_string)
-cast = cast_append
+    cast[i] = actor + " " + str(heights[i])
 
 print(cast)
