@@ -11,4 +11,3 @@ for i in zip(labels, x_coord, y_coord, z_coord):
     
 for point in points:
     print(point)
-
